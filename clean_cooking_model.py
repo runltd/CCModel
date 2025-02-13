@@ -32,6 +32,13 @@ st.markdown(
         }
         .stSlider .css-1aumxhk div[role="slider"], .stSlider .css-qbe2hs div[role="slider"], .stSlider .css-1dp5vir div[role="slider"] {
             background: #ffd300 !important;
+            border-color: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk div[role="slider"]::before, .stSlider .css-qbe2hs div[role="slider"]::before, .stSlider .css-1dp5vir div[role="slider"]::before {
+            background: #ffd300 !important;
+        }
+        .stSlider .css-qbe2hs, .stSlider .css-1aumxhk, .stSlider .css-1dp5vir {
+            background: #ffd300 !important;
         }
         .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
             color: #ffd300 !important;
