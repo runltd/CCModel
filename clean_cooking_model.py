@@ -40,6 +40,18 @@ st.markdown(
         .stSlider .css-qbe2hs, .stSlider .css-1aumxhk, .stSlider .css-1dp5vir {
             background: #ffd300 !important;
         }
+        .stSlider .css-1aumxhk .st-ec, .stSlider .css-qbe2hs .st-ec, .stSlider .css-1dp5vir .st-ec {
+            color: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk .st-dc, .stSlider .css-qbe2hs .st-dc, .stSlider .css-1dp5vir .st-dc {
+            color: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk .st-bf, .stSlider .css-qbe2hs .st-bf, .stSlider .css-1dp5vir .st-bf {
+            color: #ffd300 !important;
+        }
+        .stSlider .st-bf {
+            color: #ffd300 !important;
+        }
         .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
             color: #ffd300 !important;
         }
