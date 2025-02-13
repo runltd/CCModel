@@ -49,7 +49,10 @@ st.markdown(
         .stSlider .css-1aumxhk .st-bf, .stSlider .css-qbe2hs .st-bf, .stSlider .css-1dp5vir .st-bf {
             color: #ffd300 !important;
         }
-        .stSlider .st-bf {
+        .stSlider .css-1aumxhk .st-de, .stSlider .css-qbe2hs .st-de, .stSlider .css-1dp5vir .st-de {
+            color: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk .css-0, .stSlider .css-qbe2hs .css-0, .stSlider .css-1dp5vir .css-0 {
             color: #ffd300 !important;
         }
         .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
