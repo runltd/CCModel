@@ -21,6 +21,15 @@ st.markdown(
             background-color: #1b1612;
             color: #ffd300;
         }
+        .stSlider > div[data-testid="stSlider"] div[role="slider"] {
+            background-color: #ffd300 !important;
+        }
+        .stSlider > div[data-testid="stSlider"] div[role="slider"]::before {
+            background-color: #ffd300 !important;
+        }
+        .stSlider > div[data-testid="stSlider"] .st-bf {
+            color: #ffd300 !important;
+        }
         .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
             color: #ffd300 !important;
         }
