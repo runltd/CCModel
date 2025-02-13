@@ -21,8 +21,8 @@ st.markdown(
             background-color: #1b1612;
             color: #ffd300;
         }
-        .stSlider, .stSelectbox, .stButton {
-            color: #f590c7 !important;
+        .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
+            color: #ffd300 !important;
         }
     </style>
     """,
