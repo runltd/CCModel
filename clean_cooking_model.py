@@ -21,14 +21,17 @@ st.markdown(
             background-color: #1b1612;
             color: #ffd300;
         }
-        .stSlider > div[data-testid="stSlider"] div[role="slider"] {
+        .stSlider div[role="slider"] {
             background-color: #ffd300 !important;
         }
-        .stSlider > div[data-testid="stSlider"] div[role="slider"]::before {
-            background-color: #ffd300 !important;
-        }
-        .stSlider > div[data-testid="stSlider"] .st-bf {
+        .stSlider .st-bf, .stSlider .css-1dp5vir, .stSlider .css-1aumxhk, .stSlider .css-qbe2hs {
             color: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk div, .stSlider .css-qbe2hs div, .stSlider .css-1dp5vir div {
+            background: #ffd300 !important;
+        }
+        .stSlider .css-1aumxhk div[role="slider"], .stSlider .css-qbe2hs div[role="slider"], .stSlider .css-1dp5vir div[role="slider"] {
+            background: #ffd300 !important;
         }
         .stSlider, .stSelectbox, .stButton, .stProgress, .stRadio, .stCheckbox {
             color: #ffd300 !important;
